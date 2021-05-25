@@ -1,0 +1,21 @@
+{
+    "name": "infranet/chamado",
+    "description": "Sistema de chamado t\u0000cnico",
+    "authors": [
+        {
+            "name": "Clayton Augusto",
+            "email": "clayton.a.s.f@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.3",
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microstar\\":"src/"
+        },
+        "classmap": ["Helper/alerta.php"]
+     
+    }
+}

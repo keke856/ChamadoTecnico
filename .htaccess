@@ -1,0 +1,6 @@
+RewhiteEngine on
+RewhiteCond %{SCRIPT_FILENAME} !-f
+RewhiteCond %{SCRIPT_FILENAME} !-d
+RewhiteRule ^(.*)$ index.php?url=$1
+
+
